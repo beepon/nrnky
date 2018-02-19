@@ -1,0 +1,60 @@
+@font-face {
+    font-family: Raleway-Light;
+    src: url('../fonts/raleway/Raleway-Light.ttf');
+}
+@font-face {
+    font-family: Raleway-Bold;
+    src: url('../fonts/raleway/Raleway-Bold.ttf');
+}
+@font-face {
+    font-family: Raleway-Regular;
+    src: url('../fonts/raleway/Raleway-Regular.ttf');
+}
+body,p{
+	font-family: Raleway-Light;
+}
+.featured-top {
+    padding: 2px 10px 0px;
+}
+.flex-control-nav {
+    bottom: -5px;
+}
+.flexslider {
+    margin: 0 0 10px;
+    }
+/** Menu **/
+.region-primary-menu {
+    background: #ffa428;
+}
+.region-primary-menu .menu a {
+    color: #f3f3f3;
+    background: none !important;
+    border-right: 1px solid rgba(238, 238, 238, 0.4);
+    border-radius: 0px;
+    font-family: Raleway-Regular;
+}
+.region-primary-menu .menu a {
+	text-shadow:none;
+}
+ul.menu a.is-active{
+	color:#fff;
+}
+#main-wrapper{
+	
+}
+/** Flexslide video carousel on the front page **///
+.flexslider .slides img {
+    width: auto;
+ }
+ .flexslider-1 img {
+    max-height: 220px;
+ }
+ #flexslider-1 li{
+   	width:auto !important;
+ }
+ #flexslider-1 .views-field.views-field-title{
+	width:160px;
+}
+.flexslider-1 a{
+	font-size:12px;
+}
